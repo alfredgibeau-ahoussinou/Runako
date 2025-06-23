@@ -1,6 +1,6 @@
 # RUNAKO
 
-Un langage de programmation simple, lisible et extensible, basé sur Python.
+Un langage de programmation simple, lisible et extensible, basé sur Python qui signifie beau en swahili.
 
 ## Philosophie de RUNAKO
 RUNAKO vise à rendre la programmation accessible, claire et agréable. Sa syntaxe s'inspire du français pour être intuitive, et chaque fonctionnalité est pensée pour faciliter l'apprentissage, l'expérimentation et la créativité.
