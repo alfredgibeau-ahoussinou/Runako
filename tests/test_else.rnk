@@ -1,0 +1,14 @@
+affiche "Test du sinon"
+variable x = 5
+si x > 10:
+    affiche "plus grand que 10"
+sinon:
+    affiche "pas plus grand que 10"
+si x == 5:
+    affiche "x vaut 5"
+sinon:
+    affiche "x ne vaut pas 5"
+si x < 0:
+    affiche "négatif"
+sinon:
+    affiche "positif ou nul" 

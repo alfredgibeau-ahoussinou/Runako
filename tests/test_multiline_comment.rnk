@@ -1,0 +1,8 @@
+affiche "Début test commentaires multilignes"
+/*
+Ceci est un commentaire
+sur plusieurs lignes
+*/
+affiche "après commentaire"
+/* Un autre commentaire */
+affiche "fin" 

@@ -1,0 +1,21 @@
+affiche "Début test 032"
+variable a = 32
+affiche a
+variable b = 33
+affiche a + b
+variable l = [32, 33, 34]
+affiche l[1]
+fonction f(x):
+    affiche x * 34
+f(33)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 32
+affiche "Fin test 032"

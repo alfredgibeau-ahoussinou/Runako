@@ -1,0 +1,4 @@
+affiche "Module importé"
+variable z = 42
+fonction fmod():
+    affiche z 

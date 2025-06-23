@@ -1,0 +1,21 @@
+affiche "Début test 027"
+variable a = 27
+affiche a
+variable b = 28
+affiche a + b
+variable l = [27, 28, 29]
+affiche l[1]
+fonction f(x):
+    affiche x * 29
+f(28)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 27
+affiche "Fin test 027"

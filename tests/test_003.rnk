@@ -1,0 +1,16 @@
+affiche "Début test 003"
+variable a = 5
+variable b = 0
+affiche a / 5
+fonction mult(x, y):
+    affiche x * y
+mult(a, 3)
+variable l = [a, b, 7]
+affiche l[2]
+si a > b:
+    affiche "ok"
+si b > a:
+    affiche "fail"
+pour j de 2 à 4:
+    affiche j * 2
+affiche "Fin test 003" 

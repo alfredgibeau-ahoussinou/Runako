@@ -1,0 +1,16 @@
+affiche "Début test 004"
+variable s = "abc"
+affiche s
+affiche s + "def"
+fonction echo(msg):
+    affiche msg
+echo("test")
+variable l = [1, 2, 3, 4]
+affiche l[3]
+si s == "abc":
+    affiche "ok"
+si s == "no":
+    affiche "fail"
+pour k de 1 à 3:
+    affiche k + 1
+affiche "Fin test 004" 

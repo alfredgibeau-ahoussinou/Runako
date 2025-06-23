@@ -1,0 +1,17 @@
+affiche "Début test 002"
+variable x = 10
+affiche x
+variable y = 20
+affiche x * y
+variable l = [x, y, 30]
+affiche l[0]
+fonction add(a, b):
+    affiche a + b
+add(x, y)
+si x == 10:
+    affiche "x est 10"
+si y != 20:
+    affiche "fail"
+pour i de 1 à 2:
+    affiche i + x
+affiche "Fin test 002" 

@@ -1,0 +1,17 @@
+affiche "Test des fonctions et listes"
+
+fonction saluer(nom):
+    affiche "Bonjour " + nom
+
+saluer("Alice")
+saluer("Bob")
+
+variable l = [10, 20, 30]
+affiche l
+affiche l[0]
+affiche l[2]
+
+fonction somme(a, b):
+    affiche a + b
+
+somme(5, 7) 

@@ -1,0 +1,5 @@
+affiche "Début test import"
+importe "tests/module_test.rnk"
+affiche z
+fmod()
+affiche "Fin test import" 

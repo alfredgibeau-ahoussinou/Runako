@@ -1,0 +1,11 @@
+affiche "Test de base"
+variable x = 2
+si x < 3:
+    affiche "ok"
+pour i de 1 à 2:
+    affiche i
+variable l = [5, 6]
+affiche l[1]
+fonction double(n):
+    affiche n + n
+double(4) 

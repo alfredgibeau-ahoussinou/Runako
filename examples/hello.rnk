@@ -1,0 +1,6 @@
+affiche "Bienvenue dans RUNAKO!"
+variable x = 4
+si x > 3:
+    affiche "x est grand"
+pour i de 1 à 3:
+    affiche i 

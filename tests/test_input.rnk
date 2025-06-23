@@ -1,0 +1,3 @@
+affiche "Test entre() : entrez un mot puis appuyez sur Entrée"
+variable mot = entre()
+affiche "Vous avez saisi : " + mot 

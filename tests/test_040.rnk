@@ -1,0 +1,21 @@
+affiche "Début test 040"
+variable a = 40
+affiche a
+variable b = 41
+affiche a + b
+variable l = [40, 41, 42]
+affiche l[1]
+fonction f(x):
+    affiche x * 42
+f(41)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 40
+affiche "Fin test 040"

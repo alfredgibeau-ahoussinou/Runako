@@ -1,0 +1,15 @@
+affiche "Début test 010"
+variable x = -5
+affiche abs(x)
+fonction absval(a):
+    affiche abs(a)
+absval(x)
+variable l = [x, 0, 5]
+affiche l[0]
+si x < 0:
+    affiche "négatif"
+si x > 0:
+    affiche "positif"
+pour i de 1 à 2:
+    affiche x + i
+affiche "Fin test 010" 

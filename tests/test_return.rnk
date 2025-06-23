@@ -1,0 +1,10 @@
+affiche "Test du retourne"
+fonction double(n):
+    retourne n * 2
+affiche double(4)
+fonction somme(a, b):
+    retourne a + b
+affiche somme(3, 7)
+fonction test_retour():
+    retourne "ok"
+affiche test_retour() 

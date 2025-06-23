@@ -1,0 +1,15 @@
+affiche "Début test 008"
+variable s = "test"
+affiche s * 2
+fonction repeat(msg, n):
+    affiche msg * n
+repeat("ok", 3)
+variable l = [s, "x", "y"]
+affiche l[0]
+si s == "test":
+    affiche "ok"
+si s == "no":
+    affiche "fail"
+pour k de 1 à 2:
+    affiche k * 10
+affiche "Fin test 008" 

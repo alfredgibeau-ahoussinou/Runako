@@ -1,0 +1,15 @@
+affiche "Début test 009"
+variable n = 9
+affiche n // 2
+fonction divint(x, y):
+    affiche x // y
+divint(n, 2)
+variable l = [n, 1, 0]
+affiche l[2]
+si n > 5:
+    affiche "grand"
+si n < 5:
+    affiche "petit"
+pour m de 1 à 3:
+    affiche m + n
+affiche "Fin test 009" 

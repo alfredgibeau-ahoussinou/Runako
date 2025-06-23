@@ -1,0 +1,16 @@
+affiche "Début test 007"
+variable a = 7
+variable b = 3
+affiche a % b
+fonction mod(x, y):
+    affiche x % y
+mod(a, b)
+variable l = [a, b, a+b]
+affiche l[1]
+si a == 7:
+    affiche "sept"
+si b == 0:
+    affiche "fail"
+pour j de 2 à 4:
+    affiche j - b
+affiche "Fin test 007" 

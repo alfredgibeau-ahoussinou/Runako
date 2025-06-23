@@ -1,0 +1,21 @@
+affiche "Début test 023"
+variable a = 23
+affiche a
+variable b = 24
+affiche a + b
+variable l = [23, 24, 25]
+affiche l[1]
+fonction f(x):
+    affiche x * 25
+f(24)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 23
+affiche "Fin test 023"

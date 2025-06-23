@@ -1,0 +1,6 @@
+affiche "Test du tantque"
+variable x = 0
+tantque x < 3:
+    affiche x
+    variable x = x + 1
+affiche "Fin tantque" 

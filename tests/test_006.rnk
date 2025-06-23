@@ -1,0 +1,15 @@
+affiche "Début test 006"
+variable x = 100
+affiche x - 50
+fonction sub(a, b):
+    affiche a - b
+sub(x, 25)
+variable l = [x, 0, -1]
+affiche l[2]
+si x > 0:
+    affiche "positif"
+si x < 0:
+    affiche "négatif"
+pour i de 1 à 3:
+    affiche x / i
+affiche "Fin test 006" 

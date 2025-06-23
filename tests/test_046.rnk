@@ -1,0 +1,21 @@
+affiche "Début test 046"
+variable a = 46
+affiche a
+variable b = 47
+affiche a + b
+variable l = [46, 47, 48]
+affiche l[1]
+fonction f(x):
+    affiche x * 48
+f(47)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 46
+affiche "Fin test 046"

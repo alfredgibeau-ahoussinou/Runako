@@ -1,0 +1,21 @@
+affiche "Début test 011"
+variable a = 11
+affiche a
+variable b = 12
+affiche a + b
+variable l = [11, 12, 13]
+affiche l[1]
+fonction f(x):
+    affiche x * 13
+f(12)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 11
+affiche "Fin test 011"

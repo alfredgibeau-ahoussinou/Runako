@@ -1,0 +1,15 @@
+affiche "Début test 001"
+variable a = 1
+affiche a
+variable b = 2
+affiche a + b
+variable l = [1, 2, 3]
+affiche l[2]
+fonction f(x):
+    affiche x + 10
+f(5)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+affiche "Fin test 001" 

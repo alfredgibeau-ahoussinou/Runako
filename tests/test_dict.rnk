@@ -1,0 +1,7 @@
+affiche "Test dictionnaire"
+variable d = {"a": 1, "b": 2}
+affiche d["a"]
+affiche d["b"]
+variable d2 = {"x": 10, "y": 20, "z": 30}
+affiche d2["y"]
+affiche d2["z"] 

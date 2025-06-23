@@ -1,0 +1,15 @@
+affiche "Début test 005"
+variable n = 2
+affiche n * n
+fonction pow2(x):
+    affiche x * x
+pow2(4)
+variable l = [n, 4, 8]
+affiche l[1]
+si n < 3:
+    affiche "ok"
+si n > 10:
+    affiche "fail"
+pour m de 1 à 2:
+    affiche m * n
+affiche "Fin test 005" 

@@ -1,0 +1,21 @@
+affiche "Début test 092"
+variable a = 92
+affiche a
+variable b = 93
+affiche a + b
+variable l = [92, 93, 94]
+affiche l[1]
+fonction f(x):
+    affiche x * 94
+f(93)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 92
+affiche "Fin test 092"

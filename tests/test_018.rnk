@@ -1,0 +1,21 @@
+affiche "Début test 018"
+variable a = 18
+affiche a
+variable b = 19
+affiche a + b
+variable l = [18, 19, 20]
+affiche l[1]
+fonction f(x):
+    affiche x * 20
+f(19)
+si a < b:
+    affiche "ok"
+si a > b:
+    affiche "fail"
+# Test erreur variable non définie
+si z > 0:
+    affiche z
+# Test boucle
+pour i de 1 à 3:
+    affiche i * 18
+affiche "Fin test 018"
